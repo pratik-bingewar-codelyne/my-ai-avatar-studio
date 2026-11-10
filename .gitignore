@@ -1,0 +1,88 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Environment / secrets
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+secrets/
+credentials.json
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+.tox/
+.nox/
+
+# Node / frontend
+node_modules/
+apps/web/dist/
+apps/web/.vite/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Uploaded personal media (preserve directory structure via .gitkeep)
+data/raw/**
+!data/raw/.gitkeep
+data/processed/**
+!data/processed/.gitkeep
+data/avatars/**
+!data/avatars/.gitkeep
+
+# Model weights / checkpoints (large binaries)
+models/**
+!models/.gitkeep
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.onnx
+*.bin
+*.h5
+*.pkl
+
+# Generated outputs
+outputs/
+tmp/
+temp/
+*.log
+
+# IDE / OS
+.idea/
+.vscode/
+*.swp
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Cursor / local agent artifacts
+.cursor/
